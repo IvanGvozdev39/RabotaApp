@@ -1,7 +1,8 @@
-package com.test.rabotaapp
+package com.test.rabotaapp.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.test.rabotaapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

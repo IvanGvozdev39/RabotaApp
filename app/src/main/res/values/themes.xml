@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.RabotaApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.RabotaApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color.+
+         -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey3</item>
+        <item name="colorSecondaryVariant">@color/grey3</item>
+        <item name="colorOnSecondary">@color/grey3</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
-
-    <style name="Theme.RabotaApp" parent="Base.Theme.RabotaApp" />
 </resources>
