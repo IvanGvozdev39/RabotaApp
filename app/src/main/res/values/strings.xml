@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">RabotaApp</string>
+    <string name="app_name">PexelsApp</string>
+    <string name="position_key_words">Должность, ключевые слова</string>
+    <string name="more">Еще</string>
+    <string name="vacancy">вакансия</string>
+    <string name="vacancies">вакансии</string>
+    <string name="vacancies2">вакансий</string>
+    <string name="vacancies_for_you">Вакансии для вас</string>
+    <string name="search">Поиск</string>
+    <string name="favorites">Избранное</string>
+    <string name="responses">Отклики</string>
+    <string name="messages">Сообщения</string>
+    <string name="profile">Профиль</string>
+    <string name="now_watching">Сейчас просматривают</string>
+    <string name="person">человек</string>
+    <string name="people">человека</string>
+    <string name="experience">Опыт</string>
+    <string name="from">от</string>
+    <string name="year">года</string>
+    <string name="to">До</string>
+    <string name="years">лет</string>
+    <string name="more_than">более</string>
+    <string name="published">Опубликовано</string>
+    <string name="january">января</string>
+    <string name="february">февраля</string>
+    <string name="march">марта</string>
+    <string name="april">апреля</string>
+    <string name="may">мая</string>
+    <string name="june">июня</string>
+    <string name="july">июля</string>
+    <string name="august">августа</string>
+    <string name="september">сентября</string>
+    <string name="october">октября</string>
+    <string name="november">ноября</string>
+    <string name="december">декабря</string>
+    <string name="raise">Поднять</string>
+    <string name="filter">Фильтр</string>
+
 </resources>
