@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    namespace 'com.test.data'
+    compileSdk 34
+
+    defaultConfig {
+//        applicationId "com.test.data"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    kapt "androidx.lifecycle:lifecycle-compiler:2.8.0-alpha01"
+
+    implementation project(path: ':domain')
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+
+    implementation 'com.google.guava:guava:28.2-android'
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+
+    implementation 'com.google.dagger:dagger:2.50'
+    kapt 'com.google.dagger:dagger-compiler:2.50'
+    implementation 'javax.inject:javax.inject:1'
+}
