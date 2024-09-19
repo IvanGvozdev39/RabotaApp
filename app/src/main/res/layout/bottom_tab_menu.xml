@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/search"
+            android:fontFamily="@font/sf_pro_display_regular"
             android:textColor="@color/grey4"
             android:textSize="12sp" />
     </LinearLayout>
@@ -59,6 +60,7 @@
                 android:layout_gravity="end|top"
                 android:background="@drawable/round_shape_round_red"
                 android:paddingHorizontal="3dp"
+                android:fontFamily="@font/sf_pro_display_regular"
                 android:textColor="@android:color/white"
                 android:textSize="8sp"
                 android:visibility="gone" />
@@ -68,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/favorites"
+            android:fontFamily="@font/sf_pro_display_regular"
             android:textColor="@color/grey4"
             android:textSize="12sp" />
     </LinearLayout>
@@ -90,6 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/responses"
+            android:fontFamily="@font/sf_pro_display_regular"
             android:textColor="@color/grey4"
             android:textSize="12sp" />
     </LinearLayout>
@@ -112,6 +116,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_regular"
             android:text="@string/messages"
             android:textColor="@color/grey4"
             android:textSize="12sp" />
@@ -135,6 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/profile"
+            android:fontFamily="@font/sf_pro_display_regular"
             android:textColor="@color/grey4"
             android:textSize="12sp" />
     </LinearLayout>

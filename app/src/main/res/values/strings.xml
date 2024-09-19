@@ -35,5 +35,7 @@
     <string name="december">декабря</string>
     <string name="raise">Поднять</string>
     <string name="filter">Фильтр</string>
+    <string name="company_name">Название компании</string>
+    <string name="apply">Откликнуться</string>
 
 </resources>
