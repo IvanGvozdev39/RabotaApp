@@ -76,4 +76,7 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.50'
     kapt 'com.google.dagger:dagger-compiler:2.50'
     implementation 'javax.inject:javax.inject:1'
+
+    implementation 'com.squareup.okhttp3:mockwebserver:4.9.3'
+
 }
